@@ -62,7 +62,6 @@ a:visited {
 	width: 150px;
 	height: 30px;
 	margin: 15px auto;
-	background-image: url(../images/logo.png);
 }
 
 .menu {
@@ -116,7 +115,7 @@ a:visited {
 ========================================= */
 #home{
 	background-color:#fff;
-	background:url('../images/beerlogo.jpg')  no-repeat fixed center center transparent;
+	background:url('../images/beer_party_01.jpg')  no-repeat fixed center center transparent;
 	height: 780px;
 	padding: 90px 0;
 }
@@ -127,7 +126,6 @@ a:visited {
 	font-size: 75px;
 	color: #272727;
 	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
-	filter: dropshadow(color=rgba(255, 255, 255, 0.5), offx=1, offy=1);
 	text-align: center;
 	padding: 100px 0 0;
 	margin: 0;
@@ -189,7 +187,6 @@ a:visited {
 	margin: 17px auto;
 	text-align: center;
 	text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.1);
-	filter: dropshadow(color=rgba(0,0,0, 0.1), offx=1, offy=1);
 }
 
 #home .heart{
@@ -232,10 +229,7 @@ a:visited {
 }
 
 #about .photo {
-	display: block;
-	background-color: #fff;
-	border: 8px solid #fff;
-	line-height: 0;
+	text-align: center;
 	
 	-webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
 	-moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
@@ -267,7 +261,6 @@ a:visited {
 	font-size: 62px;
 	color: #272727;
 	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
-	filter: dropshadow(color=rgba(255, 255, 255, 0.5), offx=1, offy=1);
 	text-align: center;
 	padding: 55px 0 0;
 	margin: 0;
@@ -279,6 +272,8 @@ a:visited {
 	color: #272727;
 	text-align: center;
 	margin: 5px 0;
+	font-family: 'Alex Brush', cursive;
+
 }
 
 #about hr.heart_bar {
@@ -288,7 +283,8 @@ a:visited {
 }
 
 #about p {
-	margin: 15px 0 0 0;
+	font-family: 'meiryo';
+	margin: 15px 0 0 0;	
 	line-height: 26px;
 	font-size: 14px;
 	padding: 0 10px;
@@ -300,47 +296,46 @@ a:visited {
 /* Ceremony Section / Start
 ========================================= */
 #ceremony{
-	background:url('../images/mid_bg.jpg') no-repeat fixed center center;
+	background:url('../images/beer_high_top_01.jpg') no-repeat fixed center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mid_bg.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/mid_bg.jpg', sizingMethod='scale')";
 	background-color:#fff;
 	padding: 90px 0;
 }
 
 #ceremony h1{
-	font-family: 'Alex Brush', cursive;
+	font-family: 'Sullivan Fill', cursive;
 	font-weight: normal;
 	font-size: 75px;
 	color: #272727;
 	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
-	filter: dropshadow(color=rgba(255, 255, 255, 0.5), offx=1, offy=1);
 	text-align: center;
 	padding: 30px 0 0;
 	margin: 0;
 }
 
-#ceremony h2{
-	font-family: 'pompadourblack';
-	font-size: 95px;
+#ceremony ul{
+	font-family: 'meiryo';
+	font-weight:bold;
+	font-size: 16px;
 	padding: 30px 0;
 	color: #272727;
-	text-shadow: 8px 7px 0px rgba(0, 0, 0, 0.1);
-	filter: dropshadow(color=rgba(0,0,0, 0.1), offx=8, offy=7);
-	text-align: center;
+	text-align: left;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+
 }
 
 #ceremony .junge{
-	ffont-family: 'Junge', serif;
+	ffont-family: 'Sullivan Fill';
 	color: #272727;
 	font-size: 13px;
 	font-weight: bold;
 	float: none;
 	margin: 26px auto;
 	letter-spacing: 5px;
+	text-shadow:  1px 1px 0px rgba(255, 255, 255, 0.7);
 	text-align: center;
 }
 
@@ -424,7 +419,6 @@ a:visited {
 	font-family: 'Sullivan Fill';
 	font-size:36px;
 }
-
 .entire .junge{
 	font-family: 'Junge', serif;
 	color: #272727;
@@ -439,6 +433,7 @@ a:visited {
 
 .entire p {
 	text-align: center;
+	font-family: 'meiryo';
 }
 
 .icon-left, .icon-right {
@@ -549,20 +544,60 @@ a:visited {
 ========================================= */
 
 
+/* ENTRY Section / Start
+========================================= */
+#ENTRY{
+	background:url('../images/paper.png');
+	color:#535353;
+	padding: 50px 0;
+	font-family: 'meiryo';
+}
+
+
+#ENTRY .ribbon h2{
+	background: url('../images/ribbon.png') no-repeat center;
+	color: #fff;
+	float: none;
+	font-family: 'Deming Ep';
+	font-size: 22px;
+	height: 50px;
+	line-height: 57px;
+	text-align: center;
+	text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.1);
+	filter: dropshadow(color=rgba(0,0,0, 0.1), offx=1, offy=1);
+	margin: 30px 0;
+}
+
+.entry_line {
+	width:50%; margin-left:auto;margin-right:auto;text-align:left;
+}
+
+/* ENTRY Section / End
+========================================= */
+
 /* Contact Section / Start
 ========================================= */
 #contact{
-	background:url('../images/top_bg.jpg') no-repeat center bottom fixed;
+	background:url('../images/oshibori_01.jpg') no-repeat fixed center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg1.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg1.jpg', sizingMethod='scale')";
 		
 	background-color:#fff;
-	padding: 238px 0;
+	padding: 100px 0;
+	font-family: 'meiryo';
 }
+
+#contact:before{
+	content: "";
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	height: 30px;
+	background: url(../images/bar.png);
+}
+
 
 #contact .ribbon h2{
 	background: url('../images/ribbon.png') no-repeat center;
@@ -592,118 +627,10 @@ a:visited {
 	margin: 0 auto;
 }
 
-#send {
-	margin-top: 12px;
+.contact_line {
+	width:50%; margin-left:auto;margin-right:auto;text-align:left;
 }
 
-.field textarea, .field input {
-	outline:none;
-	font-size: 17px;
-	width: 96%;
-	max-width: 100%;
-	border: none;
-	padding: 0 0 0 4%;
-	background: #fff;
-	margin: 15px 0;
-	color: #515151;
-	font-family: 'Junge', serif;
-	-webkit-appearance: none;
-	-webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	-moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	opacity: 1;
-	
-	-webkit-transition: opacity 200ms ease-in-out;
-	-moz-transition: opacity 200ms ease-in-out;
-	-o-transition: opacity 200ms ease-in-out;
-	-ms-transition: opacity 200ms ease-in-out;
-	transition: opacity 200ms ease-in-out;
-}
-
-.field textarea {
-	height: 203px;
-	padding-top: 15px;
-	line-height: 23px;
-}
-
-.field input {
-	height: 52px;
-}
-
-.field textarea:hover, .field input:hover {
-	opacity: 0.7;
-}
-
-.field .validation-error{
-	-webkit-box-shadow: inset 0px 0px 0px 1px #F23939;
-	-moz-box-shadow: inset 0px 0px 0px 1px #F23939;
-	box-shadow: inset 0px 0px 0px 1px #F23939;
-}
-
-.field .validation-error:focus {
-	-webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	-moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-}
-
-.send:hover{
-	-webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	-moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-}
-
-.send {
-	color: #515151;
-	background: #fff;
-	cursor: pointer;
-	margin: 15px 0;
-	font-size: 17px;
-	font-weight: bold;
-	display: block;
-	cursor: pointer;
-	width: 100%;
-	height: 52px;
-	padding: 0;
-	border: none;
-	
-	-webkit-appearance: none;
-	-webkit-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	-moz-box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, .45);
-	
-	-webkit-transition: all 0.1s ease-in-out;	
-	-moz-transition: all 0.1s ease-in-out;	
-	-o-transition: all 0.1s ease-in-out;	
-	-ms-transition: all 0.1s ease-in-out;	
-	transition: all 0.1s ease-in-out;
-}
-
-.send:hover {
-	background: #f23939;
-	border: none;
-	color: #fff;
-}
-
-.send[disabled]:hover,
-.field textarea[disabled]:hover, 
-.field input[disabled]:hover {
-	display:none;
-}
-
-.success-message {
-	display: none;
-	background: rgba(31, 255, 0, 0.5);
-	text-align: center;
-	color: white;
-	padding: 15px 0;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
-	margin: 0 auto;
-	width: 100%;
-
-	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(40, 145, 0, 0.3);
-	-moz-box-shadow: inset 0px 0px 0px 1px rgba(40, 145, 0, 0.3);
-	box-shadow: inset 0px 0px 0px 1px rgba(40, 145, 0, 0.3);
-}
 /* Contact Section / End
 ========================================= */
 
