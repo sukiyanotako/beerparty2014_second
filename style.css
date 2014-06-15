@@ -417,7 +417,8 @@ a:visited {
 
 #gallery h2{
 	font-family: 'Sullivan Fill';
-	font-size:36px;
+	font-size:30px;
+	text-align: center;
 }
 .entire .junge{
 	font-family: 'Junge', serif;
